@@ -13,7 +13,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         } catch (InstantiationException | IllegalAccessException e) {
             throw new BeansException("Instantiation of bean failed", e);
         }
-        addSingleton(beanName, bean);
+        addSingleton(beanName, bean); // 第一次创建Bean时要加入单例池
         return bean;
     }
 }
