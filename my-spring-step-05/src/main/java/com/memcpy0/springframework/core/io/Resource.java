@@ -1,4 +1,4 @@
-package com.memcpy0.springframework.beans.core.io;
+package com.memcpy0.springframework.core.io;
 
 import java.io.IOException;
 import java.io.InputStream;
